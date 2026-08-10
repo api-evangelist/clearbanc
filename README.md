@@ -1,4 +1,4 @@
-# Clearbanc
+# Clearco (formerly Clearbanc)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clearbanc is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Clearco (formerly Clearbanc) is a Toronto-based fintech that provides non-dilutive, revenue-based working capital to ecommerce and direct-to-consumer brands. Founders connect the sales, advertising and banking platforms they already run on — Shopify, Amazon, Stripe, PayPal, Square, BigCommerce — and Clearco underwrites from that data, funding inventory and marketing spend as a cash advance or as invoice funding. Founded in 2015 as Clearbanc, rebranded to Clearco in 2021.
+
+- https://www.clear.co/
+- https://status.clear.co/
+
+Clearco operates a partner API (`api.clearbanc.com`) whose documentation host (`docs.clearbanc.com`) sits behind a Cloudflare Access login, so no public contract or reference could be captured. See `x-coverage` in `apis.yml`.

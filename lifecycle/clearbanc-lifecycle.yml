@@ -1,0 +1,52 @@
+generated: '2026-08-09'
+method: probed
+source: >-
+  https://status.clear.co/ (probed 2026-08-09, HTTP 200);
+  https://www.clear.co/legal/terms-of-service (HTTP 200);
+  https://docs.clearbanc.com/ (HTTP 403, Cloudflare Access) — the developer
+  documentation host that would carry a versioning/deprecation policy is not
+  publicly reachable, so no policy could be read.
+status_page:
+  url: https://status.clear.co/
+  vendor: Site24x7 StatusIQ
+  http_status: 200
+  content_type: text/html;charset=UTF-8
+  fetched: '2026-08-09'
+  notes: >-
+    Live, publicly reachable status page for the Clearco platform. The page is
+    client-side rendered by Site24x7 StatusIQ (asset host
+    js-wc.site24x7static.com), so component and incident detail is not present in
+    the served HTML and no machine-readable component/incident feed was found at
+    the root.
+versioning:
+  scheme: null
+  mechanism: null
+  docs: null
+  notes: >-
+    No public versioning policy found. The API host (api.clearbanc.com) answers
+    403 "RBAC: access denied" on every path probed, and the developer
+    documentation host (docs.clearbanc.com) sits behind Cloudflare Access, so any
+    versioning scheme Clearco operates is documented only to authenticated
+    partners.
+deprecation:
+  policy_url: null
+  changelog: null
+  sunset_header: null
+  notes: >-
+    No public deprecation policy, no public changelog, and no RFC 8594
+    Sunset/Deprecation header evidence — the surfaces that would carry them are
+    credential-gated. Absence here is a discovery result, not an assertion that
+    Clearco has no internal policy.
+sla:
+  url: https://www.clear.co/legal/terms-of-service
+  public_uptime_target: null
+  notes: >-
+    No numeric public uptime commitment published alongside the status page.
+deprecated_operations: []
+x-evidence:
+  - url: https://status.clear.co/
+    http_status: 200
+  - url: https://docs.clearbanc.com/
+    http_status: 403
+  - url: https://api.clearbanc.com/
+    http_status: 403
