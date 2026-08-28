@@ -8,6 +8,17 @@ description: 'Clearco (formerly Clearbanc) is a Toronto-based fintech that provi
   funding, in as little as 24 hours, without equity dilution. The company was founded
   in 2015 as Clearbanc, rebranded to Clearco in 2021, and reports having deployed more
   than $3.3 billion to over 10,000 businesses.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/65fde10e62e6a7603e9221cc/660190120ed591c2ca6658f4_clearco-logo-black.png
 url: https://raw.githubusercontent.com/api-evangelist/clearbanc/refs/heads/main/apis.yml
 x-type: company
