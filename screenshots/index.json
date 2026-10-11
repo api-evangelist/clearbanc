@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "clearbanc",
+    "captured_at": "2026-10-11T184306",
+    "source_url": "https://www.clear.co/",
+    "source_type": "Website",
+    "file": "clearbanc-2026-10-11T184306.png",
+    "bytes": 274726,
+    "capture": "playwright-local"
+  }
+]
