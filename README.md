@@ -1,4 +1,4 @@
-# Clearco (formerly Clearbanc)
+# Clearco
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,9 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clearco (formerly Clearbanc) is a Toronto-based fintech that provides non-dilutive, revenue-based working capital to ecommerce and direct-to-consumer brands. Founders connect the sales, advertising and banking platforms they already run on — Shopify, Amazon, Stripe, PayPal, Square, BigCommerce — and Clearco underwrites from that data, funding inventory and marketing spend as a cash advance or as invoice funding. Founded in 2015 as Clearbanc, rebranded to Clearco in 2021.
+Clearco (formerly Clearbanc) is a Toronto-based fintech that provides non-dilutive, revenue-based working capital to ecommerce and direct-to-consumer brands. Founders connect the sales, advertising and banking platforms they already run on — Shopify, Amazon, Stripe, PayPal, Square, BigCommerce — and Clearco underwrites from that data, funding inventory and marketing spend as a cash advance or as invoice funding, in as little as 24 hours, without equity dilution. The company was founded in 2015 as Clearbanc, rebranded to Clearco in 2021, and reports having deployed more than $3.3 billion to over 10,000 businesses.
 
-- https://www.clear.co/
-- https://status.clear.co/
+**Areas:** Company · Finance · Financial Services · Fintech · Lending · Working Capital · Revenue-Based Financing · Invoice Funding · E-Commerce
 
-Clearco operates a partner API (`api.clearbanc.com`) whose documentation host (`docs.clearbanc.com`) sits behind a Cloudflare Access login, so no public contract or reference could be captured. See `x-coverage` in `apis.yml`.
+## Clearco on APIs.io
+
+Everything profiled for Clearco is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clearbanc/](https://apis.io/providers/clearbanc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clearbanc Domain Security](https://apis.io/security/clearbanc/clearbanc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.clear.co/)
+- [Blog](https://www.clear.co/blog)
+- [Terms of service](https://www.clear.co/legal/terms-of-service)
+- [Privacy policy](https://www.clear.co/legal/privacy-policy)
+- [GitHub](https://github.com/clearbanc)
+- [Status](https://status.clear.co/)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clearbanc/](https://apis.io/providers/clearbanc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clearco: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clearbanc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
